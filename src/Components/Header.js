@@ -1,12 +1,12 @@
 import React from 'react';
-//import Logo from './assets/Logo_let'
+import './Header.css'
+import LogoLet from '../assets/Logo_let.png'
 
 function Header(){
 
     return (
         <section>
-            <p>Imagen logo :'0</p>
-            {/* <img src={Logo} alt="Burger-Queen-Logo"/> */}
+            <img src={LogoLet} alt="Burger-Queen-Logo" id="logo2"/>
         </section>
     )
 }

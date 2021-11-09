@@ -1,0 +1,14 @@
+section {
+    position: absolute;
+    width: 1194px;
+    height: 99px;
+    left: 0px;
+    top: 0px;
+    background: #F3DB85;
+}
+#logo2{
+    position: absolute;
+    height: 100%;
+    left: 45px;
+    top: 3px;
+}
