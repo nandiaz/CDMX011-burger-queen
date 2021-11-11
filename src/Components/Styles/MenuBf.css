@@ -1,0 +1,15 @@
+.tabla-menu{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    height: 1000px;
+}
+.menu-bf {
+    padding-top: 120px;
+    align-self: center;
+    width: min-content;
+ }
+ td {
+    text-align: center;
+    border-bottom-color: black;
+ }

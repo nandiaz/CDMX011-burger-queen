@@ -1,5 +1,5 @@
 import React from 'react';
-import './Header.css'
+import './Styles/Header.css'
 import LogoLet from '../assets/Logo_let.png'
 
 function Header(){

@@ -1,26 +1,36 @@
 nav {
     position: absolute;
-    width: 260px;
-    height: 730px;
+    width: 250px;
+    height: 901px;
     left: 0px;
     top: 99px;
     background: #FF9243;
 }
+
 .section {
     position: absolute;
     width: 200px;
     height: 48px;
     left: 30px;
-    top: 250px;    
+    top: 210px;    
     /* font-family: Nunito; */
     font-size: 25px;
     line-height: 48px;  
     color: #A939AB;
+} 
+
+#btn-new-ord {
+    width: 250px;
+    height: 70px;
+    left: 0px;
+    top: 230px;
+    border-style: none;
+    background: #F3DB85;
 }
 
 #logo1 {
     position: static;
-    height: 30%;
-    padding-left: 20px;
-    padding-top: 10px;
+    height: 18%;
+    padding-left: 43px;
+    padding-top: 20px;
 }
