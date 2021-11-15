@@ -8,7 +8,9 @@ import ShowMenu from './ShowMenu';
 function Orders(){
   
     return (
-      <section id="main-container">
+      <section
+        style={{display:"flex", flexDirection:"row", justifyContent: "spaceAround",  }}
+      >
         <Header />
         <Nav />
         <ShowMenu />

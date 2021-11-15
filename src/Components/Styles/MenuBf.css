@@ -1,15 +1,18 @@
-.tabla-menu{
+/* .tabla-menu{
     display:flex;
     flex-direction: column;
     align-content: center;
     height: 1000px;
-}
+} */
 .menu-bf {
-    padding-top: 120px;
     align-self: center;
-    width: min-content;
+    width: min-content;   
  }
  td {
     text-align: center;
     border-bottom-color: black;
+ }
+ td {
+     white-space: nowrap;
+     align-self:flex-start;
  }

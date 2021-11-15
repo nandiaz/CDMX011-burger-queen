@@ -1,6 +1,8 @@
 import React from 'react';
 import Data from '../Data/menu.json'
 import './Styles/MenuBf.css';
+import AddItem from './AddItem';
+
 
 function MenuMeals() {
 const meals = Data.items.filter(item => item.category === "meal")
@@ -22,7 +24,7 @@ const meals = Data.items.filter(item => item.category === "meal")
                                 <tr key={i}>
                                 <td>{item.name}</td>
                                 <td>${item.price}</td>
-                                <td>0</td>
+                                <td><AddItem /></td>
                                 <td>$0</td>
                             </tr>
                         );

@@ -1,12 +1,12 @@
 import React from 'react';
 import Data from '../Data/menu.json'
 import './Styles/MenuBf.css';
+import AddItem from './AddItem';
 
 function MenuBf() {
 const breakfast = Data.items.filter(item => item.category === "breakfast")
 
     return (
-        <div className="tabla-menu">
             <table className="menu-bf">
                 <thead>
                     <tr>
@@ -22,14 +22,13 @@ const breakfast = Data.items.filter(item => item.category === "breakfast")
                             <tr key={i}>
                                 <td>{item.name}</td>
                                 <td>${item.price}</td>
-                                <td>0</td>
+                                <td><AddItem /></td>
                                 <td>$0</td>
                             </tr>
                         );
                     })}
                 </tbody>
             </table>
-        </div>
     )
 }
 
