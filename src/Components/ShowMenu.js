@@ -4,8 +4,7 @@ import MenuMeals from './MenuMeal';
 import './Styles/ShowMenu.css';
 
 function ShowMenu(props) {
-  //se declara lo que quiero que cambie
-  //const [client, setClient] = useState('');
+  //Se declara lo que quiero que cambie
   const [typeOfFood, setTypeOfFood] = useState('breakfast');
 
     //Cachar el nombre del cliente y mesa
@@ -33,12 +32,16 @@ function ShowMenu(props) {
       props.addOrEdit(values);
       setValues({...initialStateValues})
     };
+    const selectCategory = (e) => {
+      setTypeOfFood(e.target.value)
+      handleInputChange(e)
+    }
     
     return (
       <div id="menu-container">
         <div id="btn-options">
-          <button className="btn-op menu-bf" onClick={()=>{setTypeOfFood('breakfast')}}>Desayuno</button>
-          <button className="btn-op menu-m" onClick={()=>{setTypeOfFood('meal')}}>Almuerzo</button>
+          <input type="button" className="btn-op menu-bf" name="category" value="breakfast" onClick={selectCategory}/>
+          <input type="button" className="btn-op menu-m" name="category" value="meal" onClick={selectCategory}/>
         </div>
         {/* <form onSubmit={handleSubmit}> */}
         <div id="order">
