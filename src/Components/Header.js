@@ -5,7 +5,7 @@ import LogoLet from '../assets/Logo_let.png'
 function Header(){
 
     return (
-        <section>
+        <section id="header">
             <img src={LogoLet} alt="Burger-Queen-Logo" id="logo2"/>
         </section>
     )

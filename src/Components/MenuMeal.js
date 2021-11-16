@@ -5,10 +5,10 @@ import AddItem from './AddItem';
 
 
 function MenuMeals() {
-const meals = Data.items.filter(item => item.category === "meal")
+const meals = Data.items.filter(item => item.category === "meal" || item.category === "extra")
 
     return (
-        <div className="tabla-menu">
+        
             <table className="menu-bf">
                 <thead>
                     <tr>
@@ -31,7 +31,7 @@ const meals = Data.items.filter(item => item.category === "meal")
                     })}
                 </tbody>
             </table>
-        </div>
+        
     )
 }
 
