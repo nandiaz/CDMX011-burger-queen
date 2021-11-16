@@ -23,6 +23,7 @@ function AddItem(props){
                 value="-"
             >-</button>
             <p>{count}</p>
+            {/* console.log({count}) */}
             <button onClick={addItem} 
                 className="btn-amount" 
                 value="+"
