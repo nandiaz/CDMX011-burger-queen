@@ -1,0 +1,82 @@
+{
+    "items": [
+        {
+            "id": 0,
+            "name": "Café americano",
+            "price": 5,
+            "category": "breakfast"
+        },
+        {
+            "id": 1,
+            "name": "Café con leche",
+            "price": 7,
+            "category": "breakfast"
+        },
+        {
+            "id": 2,
+            "name": "Sandwich de jamón y queso",
+            "price": 10,
+            "category" : "breakfast"
+        },
+        {
+            "id": 3,
+            "name": "Jugo de frutas natural",
+            "price": 7,
+            "category": "breakfast"
+        },
+        {
+            "id": 4,
+            "name": "Hamburguesa simple",
+            "price": 10,
+            "category": "meal"
+        },
+        {
+            "id": 5,
+            "name": "Hamburguesa doble",
+            "price": 15,
+            "category": "meal"
+        },
+        {
+            "id": 6,
+            "name": "Papas fritas",
+            "price": 5,
+            "category": "meal"
+        },
+        {
+            "id": 7,
+            "name": "Aros de cebolla",
+            "price": 5,
+            "category": "meal"
+        },
+        {
+            "id": 8,
+            "name": "Agua 500ml",
+            "price": 5,
+            "category": "meal"
+        },
+        {
+            "id": 9,
+            "name": "Agua 750ml",
+            "price": 7,
+            "category": "meal"
+        },
+        {
+            "id": 10,
+            "name": "Bebida/gaseosa 500ml",
+            "price": 7,
+            "category": "meal"
+        },
+        {
+            "id": 11,
+            "name": "Bebida/gaseosa 750ml",
+            "price": 10,
+            "category": "meal"
+        },
+        {
+            "id": 12,
+            "name": "Queso/huevo",
+            "price": 1,
+            "category": "extra"
+        }
+    ]
+}
