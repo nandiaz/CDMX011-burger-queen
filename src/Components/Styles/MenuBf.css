@@ -1,0 +1,24 @@
+/* .tabla-menu{
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    height: 1000px;
+} */
+.menu-bf {
+    align-self: center;
+    width: min-content;   
+ }
+ td {
+    text-align: center;
+    border-bottom-color: black;
+ }
+ td {
+     white-space: nowrap;
+     align-self:flex-start;
+ }
+
+ table{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+ }
